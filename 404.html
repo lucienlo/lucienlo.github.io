@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>暮林工作室 Mulin Studio</title>
+<style>
+  html, body { height: 100%; margin: 0; }
+  body {
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: #0e1a12; color: #dfe8df; text-align: center; padding: 24px;
+  }
+  a { color: #8fd6a8; }
+</style>
+</head>
+<body>
+  <div>
+    <p>前往 暮林工作室 Mulin Studio…</p>
+    <p><a href="https://mulin-studio.github.io/">若未自動跳轉,請點此</a></p>
+  </div>
+  <script>
+    /* GitHub Pages 對任何找不到的路徑都會回這頁;把同樣路徑導到 mulin 對應頁 */
+    var target = "https://mulin-studio.github.io" + location.pathname + location.search + location.hash;
+    location.replace(target);
+  </script>
+</body>
+</html>
